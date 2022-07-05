@@ -91,8 +91,7 @@ function sendTheMessage() {
     // if they did, save their name to the variable "you"
     you = nameInput.value();
     // load a new page when you press submit
-    window.location.href = "https://qinzheng-sun.github.io/Presence-co-presence/_pageTwo/index.html" 
-
+    window.location.href = "https://qinzheng-sun.github.io/_pageTwo/index.html" 
   } else {
     // if they have no entered their name, create an alert and ask them to enter their name
     window.alert("Please enter your name!");
